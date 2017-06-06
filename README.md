@@ -4,6 +4,8 @@
 
 This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a corresponding asset manifest is generated.
 
+Minor change to [Phoenix Static Buildpack](https://github.com/gjaldon/heroku-buildpack-phoenix-static): use webpack instead of brunch
+
 ## Features
 * Easily customizable to your build needs with its `compile` hook!
 * Works much like the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir)!
