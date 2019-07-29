@@ -24,7 +24,7 @@ heroku apps:create my_heroku_app
 
 # Set and add the buildpacks for your Heroku app
 heroku buildpacks:set https://github.com/HashNuke/heroku-buildpack-elixir
-heroku buildpacks:add https://github.com/gjaldon/heroku-buildpack-phoenix-static
+heroku buildpacks:add https://github.com/mlankenau/heroku-buildpack-phoenix-webpack
 
 # Deploy
 git push heroku master
